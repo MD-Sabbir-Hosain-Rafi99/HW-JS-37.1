@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CounterUp</title>
+</head>
+<style>
+    .parentDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #one {
+        height: 50px;
+        width: 80px;
+        padding: 40px;
+        background: #3CA55C;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #B5AC49, #3CA55C);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    #two {
+        height: 50px;
+        width: 80px;
+        padding: 40px;
+        background: #141E30;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #243B55, #141E30);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #243B55, #141E30);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    #three {
+        height: 50px;
+        width: 80px;
+        padding: 40px;
+        background: #525252;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3d72b4, #525252);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3d72b4, #525252);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    #four {
+        height: 50px;
+        width: 80px;
+        padding: 40px;
+        background: #42275a;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #734b6d, #42275a);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    #five {
+        height: 50px;
+        width: 80px;
+        padding: 40px;
+        background: #B79891;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #94716B, #B79891);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #94716B, #B79891);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1 style="text-align: center;">CounterUp:</h1>
+    <div class="parentDiv">
+        <h1 id="one" class="counterUp" data-number="10"></h1>
+        <h1 id="two" class="counterUp" data-number="100"></h1>
+        <h1 id="three" class="counterUp" data-number="20"></h1>
+        <h1 id="four" class="counterUp" data-number="50"></h1>
+        <h1 id="five" class="counterUp" data-number="90"></h1>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
